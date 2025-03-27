@@ -18,7 +18,7 @@ import re
 import random
 import hashlib
 import os
-from sklearn.metrics import f1_score, precision_recall_curve
+from sklearn.metr+ics import f1_score, precision_recall_curve
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 dataset_path = 'C:/Users/93678/PycharmProjects/Sapienza_data/progetto_bristol/dataset'
 model_path = 'C:/Users/93678/PycharmProjects/Sapienza_data/progetto_bristol/model'
